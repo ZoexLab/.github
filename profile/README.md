@@ -14,7 +14,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/current-project-heading-dark.webp">
     <source media="(prefers-color-scheme: light)" srcset="../assets/current-project-heading-light.webp">
-    <img src="../assets/current-project-heading-light.webp" width="50%" alt="current-project-header">
+    <img src="../assets/current-project-heading-light.webp" width="60%" alt="current-project-header">
   </picture>
 
   <picture>
