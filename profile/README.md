@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/zoexlab-banner.png" alt="ZoëxLab" width="100%" />
+<img src="../assets/zoexlab-banner.png" alt="ZoëxLab" width="100%" />
 *Independent Research & Development Lab*
 
 </div>
@@ -9,17 +9,29 @@
 
 <div align="center">
 
-<img src="./assets/01-header.webp" width="100%" alt="ZoëxLab" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/01-header-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/01-header-light.webp">
+  <img src="./assets/01-header-light.webp" width="100%" alt="ZoëxLab">
+</picture>
 
-<img src="./assets/02-about.webp" width="100%" alt="關於 ZoëxLab" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/02-about-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/02-about-light.webp">
+  <img src="./assets/02-about-light.webp" width="100%" alt="About ZoëxLab">
+</picture>
 
-<img src="./assets/03-current-project.webp" width="100%" alt="電子獸牌開發中" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/03-current-project-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="../assets/03-current-project-light.webp">
+  <img src="./assets/03-current-project-light.webp" width="100%" alt="電子獸牌">
+</picture>
 
 </div>
 
 ---
 
-<div>
+<div align="center">
 
 **ZoëxLab** · *Small lab, big curiosity.*
 
