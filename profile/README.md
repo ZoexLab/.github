@@ -20,7 +20,7 @@
 
 身為一名喜歡研究有趣技術的程序猿，我總想著怎麼把這些東西帶進 Furry 裡，慢慢做實際用得到的產品或作品。
 
-從一開始的點子、動手做出原型，到最後正式上線，希望能做出兼具創意與實用性的數位品和互動體驗。
+從一開始的點子、動手做出原型，到最後正式上線，希望能做出兼具創意與實用性的數位產品和互動體驗。
 
 ˗ˏˋꪔᥱow ˎˊ˗
 
@@ -33,8 +33,8 @@
 <p>
   <img align="left" src="../assets/electronic-badge-icon.webp"width="135" alt="電子獸牌">
   <br>
-  <strong>電子獸牌｜把螢幕戴在胸前的智慧獸牌</strong> <code>🔧 開發 </code><br>
-  傳統獸牌只能印一張圖，我想試試看能不能讓它「動」起來。這是一款專為獸展與聚會計的電子獸牌，除了能隨時切換角色與動態畫面，還加入了靠近感應交換名片、集章互與現場安全提醒功能。目前硬體與系統正在持續打磨中！
+  <strong>電子獸牌｜把螢幕戴在胸前的智慧獸牌</strong> <code>🔧 開發中 </code><br><br>
+  傳統獸牌只能印一張圖，我想試試看能不能讓它「動」起來。這是一款專為獸展與聚會設計的電子獸牌，除了能隨時切換角色與動態畫面，還加入了靠近感應交換名片、集章互動與現場安全提醒功能。目前硬體與系統正在持續打磨中！
 </p>
 
 </div>
@@ -43,7 +43,7 @@
 
 <div>
 
-## **團隊**
+## **團隊成員**
 
 <p>
   <a href="https://github.com/oiklm">
@@ -61,7 +61,7 @@
 
 **Website**： <code>暫無</code>
 
-**GitHub Discussions**： <code>[前往討論區留言](https://github.com/orgsZoexlab/discussions)</code>
+**GitHub Discussions**： <code>[前往討論區留言](https://github.com/orgs/Zoexlab/discussions)</code>
 
 **Github Org**：<code>[@ZoëxLab](https://github.com/Zoexlab)</code>
 
