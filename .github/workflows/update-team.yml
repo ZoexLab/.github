@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 支援在 GitHub 網頁 Actions 頁面手動點擊「Run workflow」立即執行
   push:
     paths:
-      - 'scripts/**'
+      - '.github/scripts/**'
       - '.github/workflows/update-team.yml'
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/update_team_members.py
+          python .github/scripts/update_team_members.py
 
       - name: Commit and Push Changes
         run: |

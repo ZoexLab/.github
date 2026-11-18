@@ -8,7 +8,7 @@ ORG_NAME = "ZoexLab"
 DEFAULT_MEMBERS = ["Raxytw", "LuoyiDev"]
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR = os.path.dirname(SCRIPT_DIR)
+ROOT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 OUTPUT_PNG_PATH = os.path.join(ROOT_DIR, "assets", "all-members.png")
 
 def make_request(url, token=None):
