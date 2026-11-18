@@ -24,6 +24,6 @@
 
 <div align="center">
 
-**ZoëxLab** · *Small lab, big curiosity.*
+**@ZoëxLab**
 
 </div>
