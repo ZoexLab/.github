@@ -1,14 +1,5 @@
 <div align="center">
 
-<img src="../assets/zoexlab-banner.png" alt="ZoëxLab" width="100%" />
-*Independent Research & Development Lab*
-
-</div>
-
----
-
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/01-header-dark.webp">
   <source media="(prefers-color-scheme: light)" srcset="../assets/01-header-light.webp">
