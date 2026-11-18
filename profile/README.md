@@ -45,11 +45,7 @@
 
 ## **團隊成員**
 
-<p>
-  <a href="https://github.com/raxytw">
-    <img src="https://wsrv.nl/?url=github.com/raxytw.png&w=120&h=120fit=cover&mask=rounded&mbg=transparent" width="60" height="60"alt="raxytw" />
-  </a>
-</p>
+<img src="../assets/all-members.png" alt="" />
 
 </div>
 

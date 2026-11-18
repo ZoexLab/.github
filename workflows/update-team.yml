@@ -1,0 +1,48 @@
+name: Update Team Members
+
+on:
+  schedule:
+    # 每天 UTC 00:00 (台灣時間早上 08:00) 自動同步一次組織成員頭像
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支援在 GitHub 網頁 Actions 頁面手動點擊「Run workflow」立即執行
+  push:
+    paths:
+      - 'scripts/**'
+      - 'workflows/update-team.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-members:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install Pillow
+
+      - name: Fetch Latest Member Avatars & Generate Image
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_team_members.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/all-members.png
+          if git diff --staged --quiet; then
+            echo "No changes in team members image."
+          else
+            git commit -m "chore(team): auto-update all-members.png [skip ci]"
+            git push
+          fi
