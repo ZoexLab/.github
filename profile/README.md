@@ -33,7 +33,7 @@
 <p>
   <img align="left" src="../assets/electronic-badge-icon.webp"width="135" alt="電子獸牌">
   <br>
-  <strong>電子獸牌｜把螢幕戴在胸前的智慧獸牌</strong> <code>🔧 開發中 </code><br><br>
+  <strong>電子獸牌｜把螢幕戴在胸前的智慧獸牌</strong> <code>🔧 設計中</code><br><br>
   傳統獸牌只能印一張圖，我想試試看能不能讓它「動」起來。這是一款專為獸展與聚會設計的電子獸牌，除了能隨時切換角色與動態畫面，還加入了靠近感應交換名片、集章互動與現場安全提醒功能。目前硬體與系統正在持續打磨中！
 </p>
 
